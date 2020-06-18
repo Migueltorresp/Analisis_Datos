@@ -1,7 +1,7 @@
 {
 	"titulo":"Legend",
 	"album":"Atlas",
-	"interprete":"The Score" ,
+	"interprete":["The Score"] ,
 	"genero":"Rock",
 	"idioma":"ingles",
 	"duracion":3.09,

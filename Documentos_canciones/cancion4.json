@@ -1,7 +1,7 @@
 {
 	"titulo":"Ven a mi",
 	"album":"Presente y futuro",
-	"interprete":"Los inquietos del vallenato",
+	"interprete":["Los inquietos del vallenato"],
 	"genero":"vallenato",
 	"idioma":"español",
 	"duracion":4.44,

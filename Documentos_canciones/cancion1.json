@@ -1,7 +1,7 @@
 {
 	"titulo":"Vida de mi vida",
 	"album":"Libre",
-	"interprete":"Gian Marco",
+	"interprete":["Gian Marco"],
 	"genero":"balada",
 	"idioma":"español",
 	"duracion":4.08,
