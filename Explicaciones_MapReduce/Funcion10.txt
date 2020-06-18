@@ -1,0 +1,12 @@
+Funcion:
+
+	function (doc) {
+	  if(doc.titulos){
+	      emit(doc.titulo, doc.genero);
+	  }
+	}
+
+Explicacion:
+
+
+	La funcion recibe un documento en este caso tipo JSON que al pasar por el primer IF recibe los titulos de las canciones y mostrara el titulo de cada cancion en KEYS y el genero de la misma en VALUES.

@@ -1,0 +1,13 @@
+Funcion:
+
+	function (doc) {
+	  if(doc.idioma){
+	      emit(doc.idioma);
+	  }
+	}
+
+Explicacion:
+
+	La funcion recibe un documento en este caso tipo JSON y al pasar por el IF recibe el idioma correspondiente a cada cancion y muestra estos valores en KEY.
+
+

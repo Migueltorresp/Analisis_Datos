@@ -1,0 +1,14 @@
+Funcion:
+
+	function (doc) {
+	  if (doc.duracion){
+	      if(doc.duracion>4){
+	      emit(doc.titulo,doc.duracion);  
+	    }
+	  }
+	}
+
+Explicacion:
+
+
+	La funcion recibe un documento en este caso tipo JSON que al pasar por el primer IF recibe las direciones de las canciones y al pasar por el segundo IF nos mostrara los titulos de las canciones y duraciones de las canciones que tengan mas de 4 minutos de duracion.

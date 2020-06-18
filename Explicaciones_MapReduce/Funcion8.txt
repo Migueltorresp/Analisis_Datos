@@ -1,0 +1,10 @@
+Funcion:
+
+	function (doc) {
+  emit(doc.titulo, doc.idioma);
+}
+
+Explicacion:
+
+
+	La funcion recibe un documento en este caso tipo JSON y muestra en KEY el titulo de cada cancion y en VALUE el idioma de cada una.  

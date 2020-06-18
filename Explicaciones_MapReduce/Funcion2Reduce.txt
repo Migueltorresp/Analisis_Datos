@@ -1,0 +1,11 @@
+Funcion:
+
+	function (doc) {
+	  if(doc.idioma){
+	      emit(doc.idioma, doc.duracion);
+	  }
+	}
+
+Explicacion:
+
+	La funcion recibe un documento en este caso tipo JSON y al pasar por el IF recibe el idioma, la duracion correspondiente a cada cancion y mediante un REDUCE de _sum sumara todos lo valores de la duracion de cada idioma.

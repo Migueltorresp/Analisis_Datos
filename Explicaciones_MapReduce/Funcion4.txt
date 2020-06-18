@@ -1,0 +1,11 @@
+Funcion:
+
+	function (doc) {
+	  if (doc.titulo){
+	    emit(doc.titulo,doc.album)
+	  }
+	}
+
+Explicacion:
+
+	La funcion recibe un documento en este caso tipo JSON y al pasar por el IF recibe los titulos de las canciones en en KEYS y en VALUE el album de cada una. 

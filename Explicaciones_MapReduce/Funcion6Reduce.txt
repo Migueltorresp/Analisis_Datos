@@ -1,0 +1,12 @@
+Funcion:
+
+	function (doc) {
+	  if(doc.idioma){
+	      emit(doc.idioma);
+	  }
+	}
+
+Explicacion:
+
+	La funcion recibe un documento en este caso tipo JSON y al pasar por el IF recibe el idioma de cada cancion y mediante un REDUCE _COUNT mostrara un total de todas las canciones con el mismo idioma.
+
